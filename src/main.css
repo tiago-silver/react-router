@@ -12,8 +12,72 @@ body{
   align-items: center;
 
   background-color: #fbfbf4;
+  padding: 50px;
 }
 
 h1 {
   margin: 22px 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+
+
+}
+a {
+  text-decoration: none;
+  color: #f24d0d;
+}
+
+a, button {
+  font-weight: 700;
+  transition: filter 0.2s;
+}
+
+a:hover, button:hover {
+  filter: brightness(0.7);
+}
+
+span {
+  color: #3d3d3d;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+strong {
+  color: #f24d0d;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #f24d0d;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  margin: 18px 0;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.cards a {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  background-color: #d7eff9;
+  color: #0095e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
 }
